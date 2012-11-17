@@ -8,6 +8,7 @@
 	import com.clip.intro;
 	import com.clip.resultFail;
 	import com.clip.resultWin;
+	import com.clip.finishClip;
 	
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -95,6 +96,8 @@
 			if (App.GetInstance().curLevel < Setting.maxLevel) {
 				App.GetInstance().curLevel++;
 				initLevel();
+			}else {
+				this.addChild(new finishClip());
 			}
 		}
 		
