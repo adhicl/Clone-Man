@@ -5,6 +5,6 @@
 *.mdb
 
 # per project ignores, it's cumbersome, but reduces the risk of missing something
-Clone Man.fla
-Clone Man.swf
-map1.txt
+*.fla
+*.swf
+*.txt
